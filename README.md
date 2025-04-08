@@ -1,11 +1,5 @@
 # hsa13-hw26-autoscale-groups
-Create autoscale group that will contain one ondemand instance and will scale on spot instances.  Set up scaling policy based on AVG CPU usage.  Set up scaling policy based on requests amount that allows non-linear growth.
-
-# AWS Auto Scaling Group Setup with Terraform
-
-This is my homework assignment (HW26) for setting up an AWS Auto Scaling Group (ASG) using Terraform. I created an infrastructure that includes an ASG with one On-Demand instance and scaling via Spot Instances, along with two scaling policies: one based on CPU usage and another based on request count with non-linear growth. In this README, I’ll describe what I did, how to deploy the project, how to test the scaling, and show my results.
-
-## What I Did
+Create autoscale group that will contain one ondemand instance and will scale on spot instances.  Set up scaling policy based on AVG CPU usage.  Set up scaling policy based on requests amount that allows non-linear growth
 
 ### Infrastructure Overview
 I set up the following infrastructure:
